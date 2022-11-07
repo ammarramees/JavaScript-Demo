@@ -1,0 +1,21 @@
+.btn {
+    background-color: blue;
+    border: 2px solid red;
+    color: white;
+    border-radius:80%;
+}
+
+.btn-bd-primary {
+    font-weight: 600;
+    color: var(white);
+    background: white;: var(violet);
+    border-color: var(violet);
+    border-radius: .5rem;
+    hover-color: var(white);
+    hover-bg: #{shade-color(violet, 10%)};
+    hover-border-color: #{shade-color(violet, 10%)};
+    focus-shadow-rgb: var(violet-rgb);
+    active-color: var(over-color);
+    active-bg: #{shade-color(violet, 20%)};
+    active-border-color: #{shade-color(violet, 20%)};
+  }
